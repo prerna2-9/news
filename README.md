@@ -13,3 +13,28 @@
 + Health
 + Topic you search in the search bar
 
+The Api endpoints which are used in this project are
+
+```
+https://newsapi.org/v2/top-headlines
+
+to fetch the top haedlines
+```
+
+```
+https://newsapi.org/v2/everything?q={data}
+
+to fetch anything related to search query
+```
+
+```
+https://newsapi.org/v2/top-headlines&country={country}&category={category}
+
+to fetch the category wise news
+```
+
+```
+https://newsapi.org/v2/top-headlines&country={country}&sortBy={date}&publishedAt={date}
+
+to fetch the latest articles
+```
